@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">bookscompose</string>
+    <string name="cart">Cart</string>
+    <string name="product_thumbnail">Product Thumbnail</string>
+    <string name="load_product">Load Product…</string>
+    <string name="error_product">Can\'t load product, try again.</string>
+    <string name="search_product">Search Product…</string>
+    <string name="remove_from_cart_">Remove %s from cart.</string>
 </resources>
