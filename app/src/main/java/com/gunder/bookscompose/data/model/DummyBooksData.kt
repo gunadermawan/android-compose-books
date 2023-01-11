@@ -6,7 +6,7 @@ object DummyBooksData {
     val books = listOf(
         Books(
             1,
-            "Atomic Habits - james clear",
+            "Atomic Habits - James Clear",
             "Books Gramedia",
             R.drawable.books1,
             "Rp. 100.0000",
@@ -16,7 +16,7 @@ object DummyBooksData {
         ),
         Books(
             2,
-            "Range",
+            "Range - David Epstein",
             "Books Gramedia",
             R.drawable.books2,
             "Rp. 100.0000",

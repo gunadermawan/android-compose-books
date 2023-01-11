@@ -148,16 +148,27 @@ fun ContentDescriptionDetail(
                     text = name,
                     style = MaterialTheme.typography.displaySmall
                 )
-                YearPhone(year = year, modifier = modifier)
+
             }
-            Text(
-                modifier = modifier.padding(
-                    start = 18.dp,
-                    bottom = 12.dp
-                ),
-                text = releaseDate,
-                style = MaterialTheme.typography.titleMedium
-            )
+            Row {
+                Text(
+                    modifier = modifier.padding(
+                        start = 18.dp,
+                        bottom = 12.dp
+                    ),
+                    text = releaseDate,
+                    style = MaterialTheme.typography.titleMedium
+                )
+                Text(
+                    modifier = modifier.padding(
+                        start = 18.dp,
+                        bottom = 12.dp
+                    ),
+                    text = year,
+                    style = MaterialTheme.typography.titleMedium
+                )
+            }
+
             Text(
                 modifier = modifier.padding(
                     start = 18.dp,
@@ -213,7 +224,7 @@ fun DetailContentPreview() {
     BookscomposeTheme() {
         DetailContent(
             image = R.drawable.books1,
-            name = "Atomic Habits - james clear",
+            name = "Atomic Habits - James Clear",
             brand = "Books Gramedia",
             price = "Rp. 100.0000",
             description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
